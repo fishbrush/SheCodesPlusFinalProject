@@ -19,35 +19,59 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+            <input
+              type="search"
+              placeholder="Enter city here..."
+              class="form-control"
+              id="city-input"
+              autocomplete="off"
+            />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="Search" class="btn btn-primary w-100" />
+            </div>
+            </div>
+          </form>
+
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
-                <li>Last updated at <span id="date"></span></li>
-                <li id="description"></li>
+              <li>Last updated at <span id="date"></span></li>
+              <li id="description"></li>
             </ul>
             <div class="row">
-                <div class="col-md-6">
-                  <div class="d-flex weather-temperature">
-                    <img id="icon" src="" alt="clear" class="float-left">
-                    <div class="float-left"> <strong id="temperature"></strong><span class="units">℃</span>
-                    
-                    </div>
-                    </div>
+              <div class="col-md-6">
+                <div class="d-flex weather-temperature">
+                  <img id="icon" src="" alt="clear" class="float-left" />
+                  <div class="float-left">
+                    <strong id="temperature"></strong
+                    ><span class="units">℃</span>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <ul>
-                        <li>Humidity: <span id="humidity"></span>%</li>
-                        <li>Windspeed: <span id="windspeed"></span>km/h</li>
-                    </ul>
-                    </div>
-                </div>
-            </div>
               </div>
-              <small> <a href="https://github.com/fishbrush/SheCodesPlusFinalProject" target="_blank">Open source code</a> by SheCodes</small>
-            </div> 
-            
+              <div class="col-md-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Windspeed: <span id="windspeed"></span>km/h</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <small>
+          <a
+            href="https://github.com/fishbrush/SheCodesPlusFinalProject"
+            target="_blank"
+            >Open source code</a
+          >
+          by SheCodes</small
+        >
+      </div>
     </div>
-    
+
     <script src="./src/app.js"></script>
   </body>
 </html>
