@@ -38,6 +38,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "90bc7e62af1e08f18b00cf6e3cfcd85b";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Suva&appid=${apiKey}&units=metric`;
+let city = "Suva";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
