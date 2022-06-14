@@ -18,6 +18,10 @@ ul{
     padding: 0;
 }
 
+li::first-letter{
+    text-transform: capitalize;
+}
+
 li{
      color: rgb(68, 68, 68);
      font-size: 18px;
@@ -26,7 +30,6 @@ li{
     list-style: none;
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
 }
 
 small a{
