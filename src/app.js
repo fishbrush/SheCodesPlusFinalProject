@@ -100,7 +100,7 @@ function handelSubmit(event) {
   search(cityinputElement.value);
 }
 
-search("Suva");
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handelSubmit);
+
+search("Suva");

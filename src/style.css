@@ -41,12 +41,12 @@ small a {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 550px;
   margin: 30px auto;
 }
 
 .weather-app {
-  background-color: rgb(208, 206, 206);
+  background-color: rgb(227, 226, 226);
   padding: 20px;
   border-radius: 5px;
 }
