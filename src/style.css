@@ -70,21 +70,21 @@ small a {
   top: -34px;
 }
 
-.weather-forecast{
-    color: rgb(68, 68, 68) ;
-  margin-top: 20px;
+.weather-forecast {
+  color: rgb(68, 68, 68);
+  margin-top: 30px;
   text-align: center;
 }
 
-.weather-forecast-date{
+.weather-forecast-date {
   font-size: 16px;
   opacity: 0.6;
 }
 
-.weather-forecast-temperature{
+.weather-forecast-temperature {
   font-size: 13px;
 }
 
-.weather-forecast-temperature-min{
+.weather-forecast-temperature-min {
   opacity: 0.6;
 }
